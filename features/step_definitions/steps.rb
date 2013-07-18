@@ -1,10 +1,13 @@
-Given(/^(the user) has opened facebook help$/) do | user |
-  open_facebook_help
+Given(/^(a anonymous user) has opened (facebook)$/) do |user, app|
   @current_user = user
+  app.open_facebook
 end
 
-When(/^they navigate to the create account page$/) do
+When(/^they navigate to the (forgotten password page)$/) do | page |
+  page.navigate_to
+  @current_page = page
 end
 
-Then(/^they see the create an account title$/) do
+Then(/^the page displays the correct title$/) do
+  @current_page.verify_title
 end

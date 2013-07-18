@@ -1,6 +1,8 @@
-require_relative 'web/users/anonymous_user'
-require_relative 'web/impersonators/platform_impersonators'
+require_relative 'web/impersonators/page_impersonators'
 require_relative 'web/impersonators/user_impersonators'
+require_relative 'web/impersonators/platform_impersonators'
+require_relative 'web/users/anonymous_user'
+require_relative 'web/pages/forgotten_password_page'
 
 module Platform
   class FacebookWeb
@@ -9,28 +11,21 @@ module Platform
       configure
     end
 
-    # Configures capybara
     def configure
       Capybara.configure do |config|
         config.run_server         = false
         config.default_wait_time  = 15
         config.app_host           = host
-        config.default_driver     = driver
+        config.default_driver     = Platform.driver
       end
     end
 
-    # Returns capybara app_host
     def host
       'https://www.facebook.com'
     end
 
-    # Returns the capybara default driver
-    def driver
-      ENV['CONTROLLER'].to_sym
-    end
-
-    def open_facebook_help
-      visit '/help'
+    def open_facebook
+      visit '/'
     end
 
     include Platform::FacebookWeb::Impersonators

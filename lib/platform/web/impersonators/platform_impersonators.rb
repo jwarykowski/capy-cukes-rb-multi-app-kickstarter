@@ -2,7 +2,7 @@ module Platform
   class FacebookWeb
     module Impersonators
       def facebook
-        @facebook ||= FacebookWeb.new
+        self
       end
     end
   end

@@ -2,7 +2,7 @@ module Platform
   class FacebookMobile
     module Impersonators
       def facebook
-        @facebook ||= FacebookMobile.new self
+        self
       end
     end
   end

@@ -1,7 +1,6 @@
-Feature: Facebook
-  Opening Facebook
+Feature: Facebook Forgotten Password page
 
-  Scenario: User can view the facebook create an account article
-    Given the user has opened facebook help
-    When they navigate to the create account page
-    Then they see the create an account title
+  Scenario: User can view the forgotten password page
+    Given a anonymous user has opened facebook
+    When they navigate to the forgotten password page
+    Then the page displays the correct title
