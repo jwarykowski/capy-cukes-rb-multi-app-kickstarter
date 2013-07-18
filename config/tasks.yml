@@ -1,0 +1,13 @@
+web:
+ feature_order: ['features/facebook.feature']
+ runtime_defaults:
+  controller: 'firefox'
+  platform: 'web'
+ defaults: ['--format pretty', '-P -s']
+
+mobile:
+ feature_order: ['features/facebook.feature']
+ runtime_defaults:
+  controller: 'firefox'
+  platform: 'mobile'
+ defaults: ['--format pretty', '-P -s']
