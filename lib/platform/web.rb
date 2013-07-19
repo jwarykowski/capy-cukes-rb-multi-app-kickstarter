@@ -1,6 +1,5 @@
 require_relative 'web/impersonators/page_impersonators'
 require_relative 'web/impersonators/user_impersonators'
-require_relative 'web/impersonators/platform_impersonators'
 require_relative 'web/users/anonymous_user'
 require_relative 'web/pages/forgotten_password_page'
 

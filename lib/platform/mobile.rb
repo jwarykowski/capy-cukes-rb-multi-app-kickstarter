@@ -1,6 +1,5 @@
 require_relative 'mobile/impersonators/page_impersonators'
 require_relative 'mobile/impersonators/user_impersonators'
-require_relative 'mobile/impersonators/platform_impersonators'
 require_relative 'mobile/users/anonymous_user'
 require_relative 'mobile/pages/forgotten_password_page'
 

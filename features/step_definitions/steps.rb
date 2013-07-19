@@ -1,9 +1,9 @@
-Given(/^(a anonymous user) has opened (facebook)$/) do |user, app|
+Given(/^(a anonymous user) has opened facebook$/) do |user|
   @current_user = user
-  app.open_facebook
+  open_facebook
 end
 
-When(/^they navigate to the (forgotten password page)$/) do | page |
+When(/^they navigate to the (forgotten password page)$/) do |page|
   page.navigate_to
   @current_page = page
 end

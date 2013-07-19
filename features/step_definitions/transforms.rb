@@ -3,10 +3,6 @@ Transform(/^a anonymous user$/) do |impersonator|
   a_anonymous_user
 end
 
-Transform(/^facebook$/) do |impersonator|
-  facebook
-end
-
 Transform(/^the user$/) do |impersonator|
   @current_user
 end
