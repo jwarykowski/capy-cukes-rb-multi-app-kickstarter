@@ -1,3 +1,4 @@
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![Dependency Status](https://gemnasium.com/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter.png)](https://gemnasium.com/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter)
 [![Build Status](https://travis-ci.org/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter)
 [![Code Climate](https://codeclimate.com/github/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter.png)](https://codeclimate.com/github/jonathanchrisp/capy-cukes-rb-multi-app-kickstarter)
@@ -5,7 +6,7 @@
 # capy-cukes-rb-multi-app-kickstarter
 
 A quick example of how to bring Capybara, Cucumber and Ruby together to automate different Facebook interfaces. This project uses the impersonator pattern which
-was presented by Enrique Comba Riepenhausen at CukeUp 2013, please see the link: http://skillsmatter.com/podcast/java-jee/the-impersonator-pattern. 
+was presented by Enrique Comba Riepenhausen at CukeUp 2013, please see the link: http://skillsmatter.com/podcast/java-jee/the-impersonator-pattern.
 
 This project extends my other kickstarter project capybara-cucumber-ruby-kickstarter which you can find here: https://github.com/jonathanchrisp/capybara-cucumber-ruby-kickstarter
 
